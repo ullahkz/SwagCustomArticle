@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="text" scope="locale">
+            <name>titlePrefix</name>
+            <label lang="de">Präfix</label>
+            <label lang="en">Prefix</label>
+            <value></value>
+            <description>Type Prefix Here</description>
+        </element>
+        <element type="boolean" scope="locale">
+            <name>titleItalic</name>
+            <label lang="de">Kursiv</label>
+            <label lang="en">Italic</label>
+            <value>false</value>
+        </element>
+    </elements>
+</config>
